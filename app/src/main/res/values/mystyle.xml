@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <style name="TextInputLayoutLineColor" parent="Theme.AppCompat.Light">
+        <!--没有获取焦点时的颜色-->
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <!--获取焦点时的颜色-->
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <!--浮动标签-->
+    <style name="hintAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    <!--浮动标签-->
+    </style>
+    <!--错误提示信息-->
+    <style name="errorAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!--超出计数最大长度,浮动标签,下划线,计数文字都会改变颜色-->
+    <style name="counterOverflowTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+    </style>
+    <style name="editTextAppearance" parent="Theme.AppCompat">
+        <item name="android:textColorHint">#00796B</item>
+
+    </style>
+    <style name="primaryWordAppearance">
+    <item name="android:textSize">12sp</item>
+    <item name="android:gravity">left</item>
+    <item name="android:textColor">@color/colorPrimaryText</item>
+</style>
+    <style name="secondWordAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+    <style name="AppTheme.Splash" parent="AppTheme.Splash">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>

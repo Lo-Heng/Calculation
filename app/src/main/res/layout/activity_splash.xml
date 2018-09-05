@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryText"
+    android:theme="@style/AppTheme.NoActionBar"
+
+    android:orientation="vertical">
+<TextView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tv_bg"/>
+
+    <ImageView
+        android:id="@+id/im_chicken"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorAccent"
+        android:clickable="true"
+        android:focusable="true"
+        android:foregroundGravity="center"
+        android:longClickable="true"
+        android:visibility="visible"
+        />
+    <!--android:foreground="?android:attr/selectableItemBackground"-->
+    <!--android:src="?android:selectableItemBackground"-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:visibility="visible"
+        android:paddingBottom="16dp"
+        android:text="--长按--"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="18sp" />
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:visibility="invisible"-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--app:srcCompat="@android:drawable/ic_input_add"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true" />-->
+    <!--<Button-->
+        <!--android:id="@+id/btn001"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:transitionName="@string/other_transition_name"-->
+
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:text="共享组件"-->
+        <!--tools:targetApi="lollipop" />-->
+</RelativeLayout>

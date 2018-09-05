@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="New Text"
+    android:padding="20dp"
+    android:singleLine="true"
+    android:textSize="18sp"
+    android:textColor="#000"
+    android:gravity="left"
+    android:background="@drawable/line_bg_selector"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:id="@+id/textView33" />
+<!--<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:id="@android:id/text1"-->
+<!--style="?android:attr/spinnerDropDownItemStyle"-->
+<!--android:singleLine="true"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="30dp"-->
+<!--android:ellipsize="marquee"/>-->

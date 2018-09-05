@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar" >
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+
+    <style name="Fullscreen.Full" parent="android:Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+    <style name="WelcomeStyle" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_official</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+</resources>
