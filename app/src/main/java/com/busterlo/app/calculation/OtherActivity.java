@@ -22,6 +22,7 @@ import android.widget.TextView;
 
 /**
  * 跳转的Activity
+ * 没有用的
  * <p>
  * Created by wangchenlong on 16/2/26.
  */

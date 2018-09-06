@@ -66,11 +66,13 @@
                 android:id="@+id/btn_city"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
                 android:textColor="@color/colorPrimaryText"
                 android:drawableRight="@drawable/ic_menu_slideshow"
                 android:drawablePadding="@dimen/fab_margin"
                 android:background="@drawable/btn_bg_round"
                 android:padding="5dp"
+                android:layout_marginTop="16dp"
 
                 android:layout_marginBottom="16dp"
                 android:text="选择城市"/>

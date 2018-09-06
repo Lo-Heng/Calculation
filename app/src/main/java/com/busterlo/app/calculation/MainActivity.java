@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity
     long exitTime;//退出时间
     Boolean start = false;
     ImageView chicken;
-    Fragment fragment;
+    Fragment fragmentMain,fragmentSlide;
 
     protected void onCreate(Bundle savedInstanceState) {
         fm.findFragmentById(R.id.frame);
@@ -145,16 +145,20 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             // Handle the camera action
             Toast.makeText( this,"clicked camera", LENGTH_SHORT).show();
-            if(fragment == null)
-            fragment = new CompareFragment();
-            fm.beginTransaction().replace(R.id.frame,fragment)
+            if(fragmentMain == null)
+                fragmentMain = new CompareFragment();
+            fm.beginTransaction().replace(R.id.frame,fragmentMain)
                     .commit();
         } else if (id == R.id.nav_gallery) {
             Intent intent = new Intent(this,MapActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_slideshow) {
-
+            Toast.makeText( this,"Slide Test", LENGTH_SHORT).show();
+            if(fragmentSlide == null)
+                fragmentSlide = new SlideFragment();
+            fm.beginTransaction().replace(R.id.frame,fragmentSlide)
+                    .commit();
 
         } else if (id == R.id.nav_manage) {
 
